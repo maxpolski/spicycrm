@@ -1,0 +1,65 @@
+html, body {
+    min-height: 100%;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+.navbar.top {
+    background-color: dodgerblue;
+}
+
+.navbar.top .navbar-brand {
+    color: white;
+}
+
+.navbar.top .navbar-text, .navbar .navbar-link {
+    color: white;
+}
+
+.navbar.dashboard .navbar-right, .navbar.top .navbar-right {
+    margin-right: 15px;
+}
+
+.navbar.default .navbar-text, .navbar .navbar-link {
+    color: inherit;
+}
+
+.navbar.dashboard {
+    border: 1px solid black;
+}
+
+.error {
+    color:red;
+}
+
+.navbar.dashboard .nav-pills>li {
+    top: 10px;
+}
+
+.main-navigation, .workspace, .quick-info {
+
+}
+
+.workspace {
+    border: 1px solid black;
+    min-height: 850px;
+    height: auto;
+}
+
+.editing {
+  background-color: #00BFFF;
+}
+
+.errors {
+  color: red;
+}
+
+.footer {
+    background-color: dodgerblue;
+    text-align: center;
+}
+
+a.active {
+    color: red;
+}
