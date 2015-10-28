@@ -6,7 +6,7 @@ var QuickInfo = React.createClass({
   render: function() {
 
     const { addingPane,
-            editingStatus,
+            //editingStatus,
             editingItem,
             onEditClick,
             onDeleteClick,
@@ -27,7 +27,7 @@ var QuickInfo = React.createClass({
         </div>
       );
 
-    } else if(editingStatus == 'EDITING') {
+    } else if(editingItem._id != '') {
       return (
         <div>
           <EditContact
